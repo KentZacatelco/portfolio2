@@ -1,14 +1,25 @@
 div {
     border-style: solid;
     border-width: 5px;
-    border-color: green;
+    border-color: #269abc;
     padding: 15px;
 }
 
 .container {
-    border-color: blue;
+    border-color: black;
 }
 
 .row {
-    border-color: red;
+    border-color: navy;
+}
+
+.list-group-item{
+    border: 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #269abc;
+}
+
+body{
+    background-color: #245269;
 }
