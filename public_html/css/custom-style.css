@@ -23,8 +23,16 @@ div {
     background-color: #269abc;
 }
 
-body{
+#index{
     background-color: #245269;
+}
+
+#technology{
+    background-color: red;
+}
+
+#project{
+    background-color: #398439;
 }
 
 .project-container{
@@ -35,4 +43,18 @@ body{
 .project-row{
     border-color: darkgreen;
     background-color: lime;
+}
+
+.technology-container{
+    background-color: red;
+    border-color: orangered;
+}
+
+.technology-row{
+    background-color: orange;
+    border-color: yellow;
+}
+
+#technology{
+    background-color: #ff0;
 }
