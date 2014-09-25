@@ -46,15 +46,20 @@ div {
 }
 
 .technology-container{
-    background-color: red;
-    border-color: orangered;
+    background-color: purple;
+    border-color: blueviolet;
 }
 
 .technology-row{
-    background-color: orange;
-    border-color: yellow;
+    background-color: darkorchid;
+    border-color: darkmagenta;
 }
 
 #technology{
-    background-color: #ff0;
+    background-color: plum;
+}
+
+p img{
+    width: 400px;
+    height: auto;
 }
