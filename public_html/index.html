@@ -12,10 +12,8 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="teext/css" rel="stylesheet" href="css/custom-style.css">
-        
     </head>
     <body>
-        
         <div class="container">
             <h1>About Me</h1>
             <div class="row">
@@ -61,15 +59,18 @@ and open the template in the editor.
                 </div>
                 <div class="col-xs-2">
                     <nav class="list-group">
-                        <a class="list-group-item" href="index.html">
-                            About Me
-                        </a>
-                        <a class="list-group-item" href="projects.html">
-                            Projects
-                        </a>
-                        <a class="list-group-item" href="technology.html">
-                            Technologies
-                        </a>
+                        <!--Last second add in-->
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle dropdown-stuff" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                                Other pages
+                                <span class="caret"></span>
+                            </button>
+                                <ul class="dropdown-menu dropdown-stuff" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About Me</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">technology</a></li>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
             </div>
